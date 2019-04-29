@@ -5,6 +5,4 @@ import App from './App';
 
 Enzyme.configure({adapter: new EnzymeAdapter})
 
-test('renders without crashing', () => {
-const wrapper= shallow(<App />)
-});
+test('renders app', () => {});
